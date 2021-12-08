@@ -9,28 +9,250 @@
 		<link rel="stylesheet" href="../css/bootstrap.min.css" />
 		<title>Travel Landing Page</title>
 	</head>
+
 	<body>
 		<!-- Navigation -->
 		<header class="header">
 			<div class="container">
 				<nav
 					class="
-						navbar
+						navbar navbar-expand-lg navbar-light
 						border-bottom
 						col-10
 						offset-1
-						navbar-expand-lg navbar-light
 						ml-auto
 					"
 				>
-                <div class="container-fluid">
-                    <a href="#" class="navbar-brand">
-                        <img src="./images/logo.svg" alt="">
-                    </a>
-                </div>
-            </nav>
+					<div class="container-fluid">
+						<a class="navbar-brand col-4" href="#">
+							<img src="./images/logo.svg" alt="logo" />
+						</a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="
+								collapse
+								navbar-collapse
+								justify-content-between
+								align-items-center
+							"
+							id="navbarSupportedContent"
+						>
+							<ul class="navbar-nav ml-auto mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" aria-current="page"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Packages</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Accessories</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+							<form class="d-flex">
+								<button
+									class="btn btn-outline-info me-2 rounded-pill"
+									type="submit"
+								>
+									Login
+								</button>
+								<button class="btn btn-info rounded-pill" type="submit">
+									SignUp
+								</button>
+							</form>
+						</div>
+					</div>
+				</nav>
 			</div>
 		</header>
+		<div class="container d-flex align-items-center">
+			<div class="row col-10 offset-1 mt-5">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col">
+							<button
+								class="
+									btn btn-outline-light
+									text-info text-start
+									fw-bold
+									rounded-pill
+									text-uppercase
+								"
+							>
+								go anywhere <img src="./images/go.svg" alt="airplane" />
+							</button>
+							<h2 class="text-uppercase fw-bold">
+								Book a <span class="text-info">ticket</span> and just leave.
+							</h2>
+							<p class="text-muted">
+								জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
+								হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা
+								মূলধন নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে
+								দেখা দেয় দুই শূন্য হাতে মুঠো বেঁধে।
+							</p>
+							<div class="input-group mb-3">
+								<input
+									type="text"
+									class="form-control shadow-none"
+									placeholder=""
+									aria-label="Example text with button addon"
+									aria-describedby="button-addon1"
+								/>
+								<button
+									class="btn btn-primary shadow-none"
+									type="button"
+									id="button-addon1"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="currentColor"
+										class="bi bi-search"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-md-4">
+							<h3 class="h3 fw-bold">8,000</h3>
+							<p class="text-muted text-capitalize">Successful trip</p>
+						</div>
+						<div class="col-md-4">
+							<h3 class="h3 fw-bold">1,300</h3>
+							<p class="text-capitalize text-muted">Regular Client</p>
+						</div>
+						<div class="col-md-4">
+							<h3 class="h3 fw-bold">1,100</h3>
+							<p class="text-muted text-capitalize">trips yearly</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src="./images/pngwing2.svg" alt="" class="img-fluid" />
+				</div>
+			</div>
+		</div>
+		<div class="container d-flex align-items-center mt-5">
+			<div class="row col-10 offset-1 text-center">
+				<div class="col">
+					<h1 class="lh-sm fs-lg-6 fs-xxl-7 fw-bold">Why Choose Us?</h1>
+					<p class="text-muted">
+						জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
+						হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন
+						নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয়
+						দুই শূন্য হাতে মুঠো বেঁধে।
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container d-flex align-items-center mb-5">
+			<div class="row col-10 offset-1 mt-2 mb-4">
+				<div class="col-md-4">
+					<img src="./images/Union.svg" alt="" class="img-fluid" />
+					<p class="text-muted">
+						জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
+						হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন
+						নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয়
+						দুই শূন্য হাতে মুঠো বেঁধে।
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="./images/Union.svg" alt="" class="img-fluid" />
+					<p class="text-muted">
+						জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
+						হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন
+						নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয়
+						দুই শূন্য হাতে মুঠো বেঁধে।
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="./images/Union.svg" alt="" class="img-fluid m-0" />
+					<p class="text-muted">
+						জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
+						হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন
+						নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয়
+						দুই শূন্য হাতে মুঠো বেঁধে।
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container align-items-center justify-content-center py-5 mb-5">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<button class="btn btn-lg btn-outline-light text-info rounded-pill">
+						Destination <img src="./images/go.svg" alt="" class="m-2" />
+					</button>
+				</div>
+				<div class="col-md-12">
+					<h1>Find a new possibilities</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center">
+					<p class="text-muted">
+						জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
+						হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন
+						নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয়
+						দুই শূন্য হাতে মুঠো বেঁধে।
+					</p>
+				</div>
+			</div>
+		</div>
+		<div
+			class="
+				container
+				d-flex
+				align-items-center
+				justify-content-center
+				py-3
+				mb-4
+			"
+		>
+			<div class="row">
+				<div class="col-md-4 p-2 rounded-2">
+					<div class="rounded-3">
+						<img
+							src="./images/rectangle-8.svg"
+							alt=""
+							class="img-thumbnail mb-3"
+						/>
+						<p class="text-muted mb-3">3 days/2 nights</p>
+						<div class="row mb-2">
+							<div class="col-md-6">Roatan Honduras</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="./images/rectangle-15.svg" alt="" class="img-thumbnail" />
+				</div>
+				<div class="col-md-4">
+					<img src="./images/rectangle-16.svg" alt="" class="img-thumbnail" />
+				</div>
+			</div>
+		</div>
 		<script src="../js/bootstrap.min.js"></script>
 	</body>
 </html>
