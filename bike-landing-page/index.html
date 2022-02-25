@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- favicon -->
+		<link rel="shortcut icon" href="./images/fav.png" type="image/x-icon" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Bike Landing Page</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="container-fluid header-background">
+				<nav class="navbar navbar-expand-lg navbar-light mb-5">
+					<div class="container">
+						<a href="#" class="navbar-brand"></a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarHamburger"
+							aria-controls="navbarHamburger"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarHamburger">
+							<ul class="navbar-nav ms-auto pe-5 me-5 mb-lg-0">
+								<li class="nav-item">
+									<a href="" class="nav-link active fw-bold text-white">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="" class="nav-link fw-bold text-white">Shop</a>
+								</li>
+								<li class="nav-item">
+									<a href="" class="nav-link fw-bold text-white">News</a>
+								</li>
+								<li class="nav-item">
+									<a href="" class="nav-link fw-bold text-white">Contact</a>
+								</li>
+							</ul>
+							<form>
+								<button class="orange-button" type="submit">Login</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+				<section>
+					<div class="container pb-5">
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+								<p class="text-white">
+									Computer-controlled digital transistorized with electronic
+									advance
+								</p>
+								<h1 class="text-white fw-bold">Honda CBR 300</h1>
+								<p class="text-white pb-3">
+									The 2021 Honda CBR150R has been launched in Indonesia. The
+									updated model comes with a much more aggressive bodywork with
+									a more premium Showa SFF-BP similar to the Honda CBR250RR
+								</p>
+								<button
+									class="orange-button"
+									data-bs-toggle="modal"
+									data-bs-target="#purchaseModal"
+								>
+									Purchase
+								</button>
+								<div
+									class="modal fade"
+									id="purchaseModal"
+									tabindex="-1"
+									aria-labelledby="exampleModalLabel"
+									aria-hidden="true"
+								>
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5
+													class="modal-title text-danger fw-bold"
+													id="exampleModalLabel"
+												>
+													Terms and Conditions
+												</h5>
+												<button
+													type="button"
+													class="btn-close"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+											</div>
+											<div class="modal-body">
+												<p>
+													Before purchase please read the terms and conditions
+													very carefully. In case of any violations of these
+													terms and conditions,
+													<strong
+														>you wont be able to claim any further
+														warrenty.</strong
+													>
+												</p>
+												<h6 class="pt-3">
+													1. Official warrenty is not valid if you buy from any
+													<span class="text-danger"
+														>third party online market place like
+														<span class="fw-bold">
+															Evaly, Dhamaka, Alishamart etc.</span
+														></span
+													>
+												</h6>
+												<h6 class="pt-3">
+													2. Bring your bike at our service center as per
+													manual.
+													<span class="text-danger"
+														>In case of any abberation, your warrenty will be
+														invalid.</span
+													>
+												</h6>
+												<h6 class="pt-3">
+													3. Only use Honda Oil Lubricant and Oil filter.
+												</h6>
+												<h6 class="pt-3">4. Only use Honda Spare parts.</h6>
+												<h6 class="pt-3">
+													5. Please read detials from manuals
+												</h6>
+											</div>
+											<div class="modal-footer">
+												<button
+													type="button"
+													class="btn btn-danger rounded"
+													data-bs-dismiss="modal"
+												>
+													Close
+												</button>
+												<button type="button" class="orange-button">
+													Accept
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+								<img src="./images/header-bike.png" alt="" class="w-100" />
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</header>
+
+		<main>
+			<section class="container my-5">
+				<h1 class="text-center mb-0 text-capitalize">
+					Featured Bikes <span class="featured-bikes-year">2022</span>
+				</h1>
+				<p class="text-center text-danger mb-0 text-capitalize">
+					best bike collection
+				</p>
+				<hr
+					style="width: 25%; margin: auto; color: red; margin-bottom: 50px"
+					class="text-center"
+				/>
+				<div class="row justify-content-around">
+					<div class="col-lg-4 col-sm-12 col-12">
+						<img
+							src="./images/feature-bike.jpg"
+							alt="fb-1"
+							class="w-75 img-grayscale"
+						/>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12 col-12">
+						<img src="./images/feature-bike.jpg" class="w-75" alt="fb-2" />
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12 col-12">
+						<img
+							src="./images/feature-bike.jpg"
+							class="w-75 img-grayscale"
+							alt="fb-3"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="container py-5">
+				<h1 class="text-center mb-0">latest news</h1>
+				<hr class="mt-2" style="width: 30%; margin: auto; margin-bottom: 50px; color: red" />
+				<div
+					class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1 row-cols-1 g-5"
+				>
+					<div class="col">
+						<div class="card h-100 p-3 border-0 shadow">
+							<img src="./images/bike-1.png" class="card-img-top" alt="" />
+							<div class="card-body ps-0 pt-4">
+								<h5 class="card-title fw-bolder">Ducati XDIAVEL S-73</h5>
+								<p class="card-text text-muted">
+									This is a wider card with supporting text below as a natural
+									lead-in to additional content. This content is a little bit
+									longer.
+								</p>
+							</div>
+							<div class="card-footer border-0 bg-white ps-0 pt-4">
+								<button class="orange-button text-capitalize">read more</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100 border-0 shadow p-3">
+							<img src="./images/bike-2.png" class="card-img-top" alt="" />
+							<div class="card-body ps-0 pt-4">
+								<h5 class="fw-bolder card-title">Ducati XDIAVEL S-73</h5>
+								<p class="card-text text-muted">
+									This is a wider card with supporting text below as a natural
+									lead-in to additional content. This content is a little bit
+									longer.
+								</p>
+							</div>
+							<div class="card-footer border-0 bg-white ps-0 pt-4">
+								<button class="orange-button text-capitalize">read more</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100 p-3 border-0 shadow">
+							<img src="./images/bike-3.png" class="card-img-top" alt="" />
+							<div class="card-body ps-0 pt-4">
+								<h5 class="card-title fw-bolder">Ducati XDIAVEL S-73</h5>
+								<p class="text-muted card-text">
+									This is a wider card with supporting text below as a natural
+									lead-in to additional content. This content is a little bit
+									longer.
+								</p>
+							</div>
+							<div class="card-footer border-0 ps-0 pt-4 bg-white">
+								<button class="orange-button text-capitalize">read more</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
